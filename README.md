@@ -1,7 +1,11 @@
 
 <h1 align="center">
-AcadHomepage
+Jiaojiao Fang Academic Homepage
 </h1>
+
+This repository contains the source for `https://jiaojiaofang.github.io/zh/`.
+The site is based on AcadHomepage and has been customized with Chinese navigation,
+responsive research/project cards, publication metadata, and résumé-derived content.
 
 <div align="center">
 
