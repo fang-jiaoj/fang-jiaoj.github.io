@@ -90,8 +90,8 @@ Yan Tang, **Jiaojiao Fang**, Guixia Liu, Yun Tang, Weihua Li
 
 # 💬 Academic Exchange
 
-- **Poster:** “Predicting Intravenous Pharmacokinetic Parameters across Multiple Species Using a Multifidelity Deep Learning Framework,” **the 35th Chinese Chemical Society Congress**.
-- **Oral presentation:** “Predicting CYP450–Substrate Interactions Using Multitask Deep Learning Models,” **2023 Yangtze River Delta Symposium on Medicinal Chemistry**.
+- **Poster:** “Predicting Intravenous Pharmacokinetic Parameters across Multiple Species Using a Multifidelity Deep Learning Framework,” **the 35th Chinese Chemical Society Congress**
+- **Oral presentation:** “Predicting CYP450–Substrate Interactions Using Multitask Deep Learning Models,” **2023 Yangtze River Delta Symposium on Medicinal Chemistry**
 
 <span class="anchor" id="education"></span>
 
@@ -106,6 +106,6 @@ Yan Tang, **Jiaojiao Fang**, Guixia Liu, Yun Tang, Weihua Li
 
 *Jul 2025 – Sep 2025*, Macromolecular Drug Design Intern, **Shanghai Matwings Technology Co., Ltd.**
 
-- Surveyed therapeutic target backgrounds and AI methodologies and compiled relevant literature and patents;
-- Performed sequence alignment and clustering using MMseqs2;
-- Conducted complex structure prediction using AlphaFold 3 and Boltz-2.
+- Surveyed therapeutic target backgrounds and AI methodologies and compiled relevant literature and patents
+- Performed sequence alignment and clustering using MMseqs2
+- Conducted complex structure prediction using AlphaFold 3 and Boltz-2
