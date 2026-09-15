@@ -367,11 +367,12 @@ body {
   display: block;
   position: relative;
   right: auto;
-  margin: 1em 0 0;
+  margin: 1em auto 0;
   padding: 0;
   border: 0;
   background: transparent;
   box-shadow: none;
+  text-align: center;
   z-index: 1;
 }
 
