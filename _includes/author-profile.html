@@ -17,16 +17,16 @@
     <!-- <button class="btn btn--inverse">More Info & Contact</button> -->
     <ul class="author__urls social-icons">
       {% if author.location %}
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
+        <li><strong><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</strong></li>
       {% endif %}
       {% if author.employer %}
-        <li><i class="fas fa-fw fa-university" aria-hidden="true"></i> {% if author.employer_url %}<a href="{{ author.employer_url }}">{{ author.employer }}</a>{% else %}{{ author.employer }}{% endif %}</li>
+        <li><strong><i class="fas fa-fw fa-university" aria-hidden="true"></i> {% if author.employer_url %}<a href="{{ author.employer_url }}">{{ author.employer }}</a>{% else %}{{ author.employer }}{% endif %}</strong></li>
       {% endif %}
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
       {% endif %}
       {% if author.email %}
-        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
+        <li><strong><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></strong></li>
       {% endif %}
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase</a></li>
@@ -65,7 +65,7 @@
         <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
       {% endif %}
       {% if author.github_url %}
-        <li><a href="{{ author.github_url }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub: {{ author.github_label | default: "GitHub" }}</a></li>
+        <li><strong><a href="{{ author.github_url }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub: {{ author.github_label | default: "GitHub" }}</a></strong></li>
       {% endif %}
       {% if author.stackoverflow %}
         <li><a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}"><i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i> Stackoverflow</a></li>

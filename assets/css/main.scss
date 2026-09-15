@@ -322,6 +322,13 @@ body {
 
 .paper-box .paper-box-image {
   min-width: 0;
+  width: 50%;
+  max-width: 50%;
+}
+
+.paper-box .paper-box-text {
+  width: 50%;
+  max-width: 50%;
 }
 
 .paper-box .paper-box-image img {
@@ -362,6 +369,6 @@ body {
 @media (max-width: 767px) {
   #main { margin-top: 1em; }
   .page__content h1 { margin-top: 1.8em; }
-  .paper-box .paper-box-image { order: 1; margin-bottom: 1em; }
-  .paper-box .paper-box-text { order: 2; }
+  .paper-box .paper-box-image { order: 1; width: 100%; max-width: 100%; margin-bottom: 1em; }
+  .paper-box .paper-box-text { order: 2; width: 100%; max-width: 100%; padding-left: 0; }
 }

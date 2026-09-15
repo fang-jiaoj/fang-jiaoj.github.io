@@ -19,14 +19,6 @@ author_profile: true
 - **药代动力学性质预测：** 图神经网络、Transformer、多模态学习
 - **分子优化：** 药代动力学、匹配分子对、智能体
 
-<span class="anchor" id="news"></span>
-
-# 📰 最新动态
-
-- *2026.01*，多物种静脉给药药代动力学参数预测研究发表于 *Journal of Chemical Information and Modeling*。
-- *2025.11*，Nirmatrelvir 的 CYP3A4 区域选择性羟基化机制研究发表于 *Journal of Chemical Information and Modeling*。
-- *2025.07*，人类口服药代动力学参数多模态预测框架 MMPK 发表于 *Journal of Medicinal Chemistry*。
-
 <span class="anchor" id="publications"></span>
 
 # 📚 论文发表
@@ -41,11 +33,7 @@ author_profile: true
 
 **Jiaojiao Fang**, Changda Gong, Keyun Zhu, Xiang Li, Chen Yang, Zhixing Zhang, Guixia Liu, Yun Tang, Weihua Li
 
-*Journal of Chemical Information and Modeling*, **66**(2), 1035–1049, 2026.
-
 [**论文**](https://doi.org/10.1021/acs.jcim.5c02546) · [**在线平台**](https://lmmd.ecust.edu.cn/MFPK/) · [**代码**](https://github.com/fang-jiaoj/MFPK) · <a class="citation-count" href="https://openalex.org/W7118305140">引用：0</a>
-
-提出多保真度药代动力学学习框架 MFPK，融合分子图、基团和三维结构表征，预测人、犬、猴、大鼠及小鼠的静脉给药 PK 参数。
 
 </div>
 </div>
@@ -58,11 +46,7 @@ author_profile: true
 
 Xiang Li, Meiling Zhan, **Jiaojiao Fang**, Guixia Liu, Yun Tang, Weihua Li
 
-*Journal of Medicinal Chemistry*, **68**(15), 16678–16690, 2025.
-
 [**论文**](https://doi.org/10.1021/acs.jmedchem.5c01522) · [**在线平台**](https://lmmd.ecust.edu.cn/mmpk/) · <a class="citation-count" href="https://openalex.org/W4412786525">引用：9</a>
-
-构建人类口服 PK 多模态深度学习框架，联合分子图、子结构图和 SMILES 序列预测八项药代动力学参数。
 
 </div>
 </div>
@@ -75,11 +59,7 @@ Xiang Li, Meiling Zhan, **Jiaojiao Fang**, Guixia Liu, Yun Tang, Weihua Li
 
 Yan Tang, **Jiaojiao Fang**, Guixia Liu, Yun Tang, Weihua Li
 
-*Journal of Chemical Information and Modeling*, **65**(24), 13346–13359, 2025.
-
 [**论文**](https://doi.org/10.1021/acs.jcim.5c02519) · [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/41308078/) · <a class="citation-count" href="https://openalex.org/W4416748334">引用：1</a>
-
-结合分子对接、分子动力学、密度泛函理论及 QM/MM 计算，解析 Nirmatrelvir 被 CYP3A4 区域选择性羟基化的分子机制。
 
 </div>
 </div>
@@ -92,11 +72,7 @@ Yan Tang, **Jiaojiao Fang**, Guixia Liu, Yun Tang, Weihua Li
 
 **Jiaojiao Fang**, Yan Tang, Changda Gong, Zejun Huang, Yanjun Feng, Guixia Liu, Yun Tang, Weihua Li
 
-*Chemical Research in Toxicology*, **37**(9), 1535–1548, 2024.
-
 [**论文**](https://doi.org/10.1021/acs.chemrestox.4c00199) · [**PubMed**](https://pubmed.ncbi.nlm.nih.gov/39196814/) · <a class="citation-count" href="https://openalex.org/W4401945668">引用：13</a>
-
-构建可解释的多任务深度学习模型，同时预测五种主要 CYP450 同工酶的底物，并利用注意力机制与 SHAP 揭示关键子结构。
 
 </div>
 </div>
@@ -133,5 +109,3 @@ Yan Tang, **Jiaojiao Fang**, Guixia Liu, Yun Tang, Weihua Li
 - 开展在研靶点背景及 AI 方法学调研，汇总相关文献与专利；
 - 使用 MMseqs2 进行序列比对与聚类；
 - 基于 AlphaFold 3、Boltz-2 开展复合物结构预测。
-
-<p class="page-updated">最后更新：2026 年 9 月</p>
