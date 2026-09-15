@@ -71,6 +71,10 @@ body {
 .masthead__menu-item a:hover { color: var(--jf-teal); }
 .masthead__menu-item:not(.masthead__menu-home-item) a { font-weight: 700; }
 .greedy-nav .visible-links { margin-right: auto; }
+.greedy-nav .visible-links .masthead__menu-item a {
+  margin-left: 1.35rem;
+  margin-right: 1.35rem;
+}
 
 .masthead__language-switch {
   flex: 0 0 auto;
