@@ -293,6 +293,33 @@ body {
   color: #555;
 }
 
+.sidebar .author__bio,
+.sidebar .author__urls,
+.sidebar .author__urls li,
+.sidebar .author__urls a {
+  font-size: .84rem;
+  line-height: 1.5;
+}
+
+.sidebar img.sidebar-icon {
+  display: inline-block;
+  width: 1em;
+  min-width: 1em;
+  height: 1em;
+  margin: 0 .38em 0 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  vertical-align: -.12em;
+  object-fit: contain;
+}
+
+.sidebar img.sidebar-icon--github {
+  object-fit: cover;
+  object-position: left center;
+}
+
 .author__urls {
   display: block;
   position: relative;
@@ -337,7 +364,7 @@ body {
   height: auto;
   max-width: 400px;
   border: 1px solid #ececec;
-  box-shadow: none;
+  box-shadow: 0 10px 24px rgba(30, 42, 52, .2);
   object-fit: contain;
 }
 
@@ -345,6 +372,13 @@ body {
 .paper-box .paper-box-text > p:first-child {
   margin-top: 0;
   font-weight: 600;
+  text-align: justify;
+  text-align-last: justify;
+  text-justify: inter-word;
+}
+
+.paper-box .paper-box-text > p:first-child a {
+  display: block;
 }
 
 .citation-count {
@@ -364,6 +398,11 @@ body {
   color: #777;
   font-size: .76em !important;
   text-align: right;
+}
+
+.site-footer {
+  justify-content: center;
+  text-align: center;
 }
 
 @media (max-width: 767px) {
