@@ -1,0 +1,30 @@
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav" aria-label="主导航">
+        <button aria-label="打开导航"><div class="navicon"></div></button>
+        <ul class="visible-links">
+          {% if page.lang == 'en' %}
+            {% assign home_url = '#about-me' %}
+            {% assign home_title = 'Home' %}
+            {% assign nav_links = site.data.navigation_en.main %}
+          {% else %}
+            {% assign home_url = '#about-me' %}
+            {% assign home_title = '首页' %}
+            {% assign nav_links = site.data.navigation.main %}
+          {% endif %}
+          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="{{ home_url }}">{{ home_title }}</a></li>
+          {% for link in nav_links %}
+            <li class="masthead__menu-item"><a href="{{ link.url }}">{{ link.title }}</a></li>
+          {% endfor %}
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+    <div class="masthead__language-switch" aria-label="语言切换">
+      <a href="{{ '/en/' | relative_url }}" lang="en"{% if page.lang == 'en' %} class="is-active" aria-current="page"{% endif %}>EN</a>
+      <span class="language-switch__separator" aria-hidden="true">|</span>
+      <a href="{{ '/zh/' | relative_url }}" lang="zh-CN"{% unless page.lang == 'en' %} class="is-active" aria-current="page"{% endunless %}>中文</a>
+    </div>
+  </div>
+</div>

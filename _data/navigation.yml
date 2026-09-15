@@ -1,0 +1,13 @@
+main:
+  - title: "个人简介"
+    url: "#about-me"
+  - title: "研究方向"
+    url: "#research"
+  - title: "论文发表"
+    url: "#publications"
+  - title: "荣誉奖项"
+    url: "#honors"
+  - title: "学术交流"
+    url: "#academic-exchange"
+  - title: "教育与实习"
+    url: "#education"
