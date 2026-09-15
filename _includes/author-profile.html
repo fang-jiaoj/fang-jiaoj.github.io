@@ -9,7 +9,7 @@
   </div>
 
   <div class="author__content">
-    <h3 class="author__name">{{ author.name }}</h3>
+    <h3 class="author__name">{% if page.lang == 'en' and author.name_en %}{{ author.name_en }}{% else %}{{ author.name }}{% endif %}</h3>
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
   </div>
 
@@ -17,10 +17,10 @@
     <!-- <button class="btn btn--inverse">More Info & Contact</button> -->
     <ul class="author__urls social-icons">
       {% if author.location %}
-        <li><strong><img class="sidebar-icon sidebar-icon--location" src="{{ '/images/icons/location.png' | relative_url }}" alt="" aria-hidden="true">{{ author.location }}</strong></li>
+        <li><strong><span class="sidebar-emoji" aria-hidden="true">📍</span>{{ author.location }}</strong></li>
       {% endif %}
       {% if author.employer %}
-        <li><strong><i class="fas fa-fw fa-university" aria-hidden="true"></i> {% if author.employer_url %}<a href="{{ author.employer_url }}">{{ author.employer }}</a>{% else %}{{ author.employer }}{% endif %}</strong></li>
+        <li><strong><i class="fas fa-fw fa-university" aria-hidden="true"></i> {% if author.employer_url %}<a href="{{ author.employer_url }}">{% if page.lang == 'en' and author.employer_en %}{{ author.employer_en }}{% else %}{{ author.employer }}{% endif %}</a>{% else %}{{ author.employer }}{% endif %}</strong></li>
       {% endif %}
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>

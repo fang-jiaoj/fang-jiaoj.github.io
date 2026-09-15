@@ -1,0 +1,13 @@
+main:
+  - title: "About"
+    url: "/en/#about-me"
+  - title: "Research"
+    url: "/en/#research"
+  - title: "Publications"
+    url: "/en/#publications"
+  - title: "Honors"
+    url: "/en/#honors"
+  - title: "Exchange"
+    url: "/en/#academic-exchange"
+  - title: "Education & Internship"
+    url: "/en/#education"

@@ -15,10 +15,12 @@ baidu_site_verification  :
 
 author:
   name             : "方娇娇"
+  name_en          : "Jiaojiao Fang"
   avatar           : "/images/profile.jpg"
   bio              : 'Ph.D. Student @ ECUST<br><strong><a href="https://lmmd.ecust.edu.cn/">Laboratory of Molecular Modeling &amp; Design</a></strong>'
   location         : "Shanghai, China"
   employer         : "华东理工大学药学院"
+  employer_en      : "School of Pharmacy, ECUST"
   employer_url     : "https://pharmacy.ecust.edu.cn/"
   pubmed           :
   googlescholar    :
