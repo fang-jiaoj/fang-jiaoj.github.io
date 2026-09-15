@@ -300,10 +300,22 @@ body {
 }
 
 .author__avatar img {
+  display: block;
+  width: 100%;
+  max-width: 165px;
+  margin: 0 auto;
   padding: 4px;
   border: 1px solid #e8e8e8;
   border-radius: 50%;
   box-shadow: none;
+}
+
+.author__content {
+  max-width: 165px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  text-align: center;
 }
 
 .sidebar .author__name {

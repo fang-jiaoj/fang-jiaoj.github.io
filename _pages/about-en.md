@@ -90,7 +90,7 @@ Yan Tang, **Jiaojiao Fang**, Guixia Liu, Yun Tang, Weihua Li
 
 # 💬 Academic Exchange
 
-- **Poster:** “Predicting Intravenous Pharmacokinetic Parameters across Multiple Species Using a Multifidelity Deep Learning Framework,” the 35th Chinese Chemical Society Congress.
+- **Poster:** “Predicting Intravenous Pharmacokinetic Parameters across Multiple Species Using a Multifidelity Deep Learning Framework,” **the 35th Chinese Chemical Society Congress**.
 - **Oral presentation:** “Predicting CYP450–Substrate Interactions Using Multitask Deep Learning Models,” **2023 Yangtze River Delta Symposium on Medicinal Chemistry**.
 
 <span class="anchor" id="education"></span>
