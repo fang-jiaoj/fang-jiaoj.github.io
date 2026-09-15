@@ -16,15 +16,18 @@ baidu_site_verification  :
 author:
   name             : "方娇娇"
   avatar           : "/images/profile.jpg"
-  bio              : "AIDD · ADMET Prediction"
-  location         : "中国上海"
+  bio              : "Ph.D. Student @ ECUST<br>AI for Drug Discovery"
+  location         : "Shanghai, China"
   employer         : "华东理工大学药学院"
+  employer_url     : "https://pharmacy.ecust.edu.cn/"
   pubmed           :
   googlescholar    :
   email            : "fjj3444764878@163.com"
   researchgate     :
   uri              :
-  github           : "jiaojiaofang"
+  github           :
+  github_url       : "https://github.com/fang-jiaoj/MFPK"
+  github_label     : "jiaojiaofang"
   linkedin         :
   dblp             :
   orcid            :
