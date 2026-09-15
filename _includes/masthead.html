@@ -4,7 +4,7 @@
       <nav id="site-nav" class="greedy-nav" aria-label="主导航">
         <button aria-label="打开导航"><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="{{ '/zh/' | relative_url }}">JIAOJIAO FANG</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="{{ '/zh/' | relative_url }}">首页</a></li>
           {% for link in site.data.navigation.main %}
             <li class="masthead__menu-item"><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
           {% endfor %}
