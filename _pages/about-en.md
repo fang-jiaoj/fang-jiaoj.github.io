@@ -8,7 +8,7 @@ author_profile: true
 
 <span class="anchor" id="about-me"></span>
 
-I am **Jiaojiao Fang**, a Ph.D. student at the [School of Pharmacy, East China University of Science and Technology](https://pharmacy.ecust.edu.cn/), under the supervision of [Prof. Weihua Li](https://lmmd.ecust.edu.cn/) in [Prof. Yun Tang's research group](https://lmmd.ecust.edu.cn/). I received my B.Eng. degree in Pharmaceutical Engineering from [Hainan Normal University](https://www.hainnu.edu.cn/) in 2022 (GPA: 4.0/5.0; ranked second in the program).
+I am **Jiaojiao Fang**, a Ph.D. student at the [School of Pharmacy, East China University of Science and Technology](https://pharmacy.ecust.edu.cn/), under the supervision of [Prof. Weihua Li](https://pharmacy.ecust.edu.cn/2010/0326/c2965a22261/page.htm) in [Prof. Yun Tang's research group](https://lmmd.ecust.edu.cn/). I received my B.Eng. degree in Pharmaceutical Engineering from [Hainan Normal University](https://www.hainnu.edu.cn/) in 2022 (GPA: 4.0/5.0; ranked second in the program).
 
 My research focuses on artificial intelligence-driven prediction and optimization of pharmacokinetic (ADME) properties. I have published multiple research articles, including two as first author.
 
@@ -104,7 +104,7 @@ Yan Tang, **Jiaojiao Fang**, Guixia Liu, Yun Tang, Weihua Li
 
 # 💼 Internship
 
-*Jul 2025 – Sep 2025*, Macromolecular Drug Design Intern, **Shanghai Matwings Technology Co., Ltd.**
+*Jul 2025 – Oct 2025*, Macromolecular Drug Design Intern, **Shanghai Matwings Technology Co., Ltd.**
 
 - Surveyed therapeutic target backgrounds and AI methodologies and compiled relevant literature and patents
 - Performed sequence alignment and clustering using MMseqs2

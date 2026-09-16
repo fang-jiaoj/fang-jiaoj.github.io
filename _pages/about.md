@@ -8,7 +8,7 @@ author_profile: true
 
 <span class="anchor" id="about-me"></span>
 
-我是 **方娇娇（Jiaojiao Fang）**，现于[华东理工大学药学院](https://pharmacy.ecust.edu.cn/)攻读博士学位，导师为[李卫华教授](https://lmmd.ecust.edu.cn/)（[唐赟教授课题组](https://lmmd.ecust.edu.cn/)）。2022 年于[海南师范大学](https://www.hainnu.edu.cn/)获制药工程学士学位（GPA 4.0/5.0，专业第二）。
+我是 **方娇娇（Jiaojiao Fang）**，现于[华东理工大学药学院](https://pharmacy.ecust.edu.cn/)攻读博士学位，导师为[李卫华教授](https://pharmacy.ecust.edu.cn/2010/0326/c2965a22261/page.htm)（[唐赟教授课题组](https://lmmd.ecust.edu.cn/)）。2022 年于[海南师范大学](https://www.hainnu.edu.cn/)获制药工程学士学位（GPA 4.0/5.0，专业第二）。
 
 我主要从事人工智能驱动的药代动力学（ADME）性质预测与优化研究，已发表多篇论文，其中第一作者论文两篇。
 
@@ -104,7 +104,7 @@ Yan Tang, **Jiaojiao Fang**, Guixia Liu, Yun Tang, Weihua Li
 
 # 💼 实习经历
 
-*2025.07 – 2025.09*，大分子药物设计实习生，**上海天鹜科技有限公司**
+*2025.07 – 2025.10*，大分子药物设计实习生，**上海天鹜科技有限公司**
 
 - 开展在研靶点背景及 AI 方法学调研，汇总相关文献与专利
 - 使用 MMseqs2 进行序列比对与聚类
